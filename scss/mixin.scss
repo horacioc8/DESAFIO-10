@@ -1,0 +1,17 @@
+@mixin letras{
+
+
+    font-family: impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Arial Narrow Bold', sans-serif;
+
+    font-size: small;
+
+    background-color: pink;
+
+
+}
+
+
+.boxContacto{
+
+    @include letras;
+}
