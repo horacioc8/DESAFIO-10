@@ -4,7 +4,21 @@ $fondo: body;
 
 @if ($fondo == body){
 
+    .dashboard{
     background-color: #B9C6AE;
     
+    }  
 
+
+}@else{
+
+
+    .dashboard{
+    
+        background-color: gold;
+    }
 }
+
+
+
+

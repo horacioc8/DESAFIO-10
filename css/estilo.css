@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=My+Soul&display=swap");
+.dashboard {
+  background-color: #B9C6AE; }
+
 body {
   height: auto;
   width: auto;
@@ -84,7 +87,6 @@ body {
     grid-gap: 50px;
     margin: auto;
     grid-template-columns: 40% 40%;
-    background-color: #B9C6AE;
     color: #444;
     justify-content: center;
     align-content: center; }
