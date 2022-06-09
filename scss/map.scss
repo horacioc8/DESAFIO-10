@@ -1,0 +1,17 @@
+$mapbox:(gridPadre:green, cajaLogin:blue, boxPrincipal:gold );
+
+@each $box,$height in $mapbox {
+    .#{$box}{
+        color: $height;
+    }
+}
+
+
+$estilo:(color:green,height:2000px);
+
+.boxPrincipal{
+    
+    background-color:map-get($estilo,color);
+    height: map-get($estilo ,height);
+
+}

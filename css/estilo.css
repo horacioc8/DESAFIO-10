@@ -2,6 +2,27 @@
 .dashboard {
   background-color: #B9C6AE; }
 
+.gridPadre {
+  color: green; }
+
+.cajaLogin {
+  color: blue; }
+
+.boxPrincipal {
+  color: gold; }
+
+.boxPrincipal {
+  background-color: green;
+  height: 2000px; }
+
+.primerEstilo, .boxContacto, .boxContacto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.boxContacto {
+  font-size: 35px; }
+
 body {
   height: auto;
   width: auto;
@@ -293,7 +314,6 @@ body {
     background-image: url(../img/e8af2571b351b186eb1b1320859be1d6.png);
     background-size: 550px;
     padding: 20px;
-    background-color: #B9C6AE;
     display: flex;
     align-items: center;
     justify-content: center; }
